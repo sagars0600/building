@@ -1,0 +1,170 @@
+/*--------------*/
+/* BASIC SETUP */
+/*-------------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color: #fff;
+    color: #555;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 300;
+    font-size: 20px;
+  
+}
+h1{
+     margin-top: 0;
+    margin-bottom: 20px;
+      color: #fff;
+    font-size: 250%;
+      word-spacing: 3.5px;
+    letter-spacing: 1px;
+
+    
+     }
+
+
+
+
+/*-----------*/
+/* HEADER */
+/*-----------*/
+
+header{
+    background-image: url(img/pedro-lastra-Nyvq2juw4_o-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.text{
+    
+    position: absolute;
+    width: 1000px;
+    top: 50%;
+    left: 65%;
+    transform: translate(-50%,-50%);   
+}   
+
+.logo{
+    height: 180px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+    opacity: 0.7;
+    
+}
+/*---- MAIN----*/
+.main-nav{
+    float: right;
+    list-style: unset;
+    margin-top: 35px;
+}
+.main-nav li{
+    display: inline-block;
+    margin-left: 60px;
+}
+.main-nav li a:link,
+.main-nav li a:visited{
+    color: #555;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent; 
+}
+.main -nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 2px solid #000;   
+}
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited{
+    padding: 26px 0;
+    color: #555;
+    
+}
+
+/*----BUTTONS----*/
+
+.btn{
+     display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+     transition: background-color 0.5s, color 0.4s;
+    font-size: 25px;
+    
+    
+}
+.btn-full,
+input[type=submit]{
+    background-color: cornflowerblue;
+    border: 1px solid #000;
+    color: white;
+    margin-right: 15px;
+    transition: background-color 0.5s color 0.4s;
+}
+.btn-ghost:link,
+.btn-full:visited,
+input[type=submit]{
+    border: 1px solid #000;
+    color: #fff;
+}
+.btn-display:link,
+.btn-display:visited,
+input[type=submit]{
+    border: 1px solid #000;
+    color: #fff;
+}
+.btn:hover,
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active{
+    background-color: rgba(198, 61, 47, 0.9);
+    color: #fff;
+}
+.btn-full hover,
+.btn-full:active
+input[type=submit]{
+    border:1px solid #c63d2f;
+}
+
+
+
+
+/*---nav----*/
+
+footer{
+    background-color: #333; 
+    
+    padding: 60px;
+}
+.footer-nav{
+     list-style: none;
+    float: left;
+}
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.footer-nav li a:linkl,
+.footer-nav li a:visited{
+    text-decoration: none;
+    border: 0;
+    color: 888;
+}
+.footer-nav li a:hover,
+.footer-nav li a:active{
+    color: #ddd;
+}
+.footer p{
+    color: #888;
+    text-align: end;
+    font-size: 90%;
+}
+.footer-nav li,
+.social-link li{
+    display: inline-block;
+    margin-right: 20px;
+}
